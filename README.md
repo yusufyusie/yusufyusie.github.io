@@ -58,7 +58,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[Live here ](https://yusufyusie.github.i0)
+[Live here ](https://yusufyusie.github.io)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
