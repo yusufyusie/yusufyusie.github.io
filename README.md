@@ -118,7 +118,7 @@ You can deploy this project using: GitHub Pages,
 
 👤 **Yesuf Fenta**
 
-- GitHub: [@yesuf023](https://github.com/yesuf023/Portfolio)
+- GitHub: [@yesuf023](https://yusufyusie.github.io)
 - LinkedIn: [yesufenta](https://www.linkedin.com/in/yesufenta/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
