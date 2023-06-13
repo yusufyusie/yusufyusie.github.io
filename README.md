@@ -113,13 +113,10 @@ You can deploy this project using: GitHub Pages,
 
 ## 👤 Author <a name="author"></a>
 
-- <h3 align="center" > <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30" height="30" style="margin-right: 10px;">Connect with me 🤝 </h3>
-
 👤 **Yesuf Fenta**
 
 - GitHub: [@yusufyusie](https://yusufyusie.github.io)
 - LinkedIn: [yesufenta](https://www.linkedin.com/in/yusufyusie/)
-<br />
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
