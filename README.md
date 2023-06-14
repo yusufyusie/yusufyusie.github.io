@@ -117,6 +117,21 @@ You can deploy this project using: GitHub Pages,
 
 - GitHub: [@yusufyusie](https://yusufyusie.github.io)
 - LinkedIn: [yesufenta](https://www.linkedin.com/in/yusufyusie/)
+<br />
+
+## 👤 Collaborators <a name="collaborators"></a>
+
+👤 **Lewis Hinga**
+
+- GitHub: [@lewisjn-arch](https://github.com/lewisjn-arch)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/lewis-hinga-b40a501b1/)
+<br />
+
+👤 **Shaun Paul**
+
+- GitHub: [@paulshaun-kdtk](https://github.com/paulshaun-kdtk)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/shaun-sungai-b54339263/)
+<br />
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -147,7 +162,7 @@ Give a ⭐️ if you like this project and how I managed to build it!
 
 - Project from [Microverse](https://www.microverse.org/) html & css module.
 - Thanks to the Microverse team for the great curriculum.
-- Thanks to the Code Reviewer(s) for the insightful feedbacks.
+- Thanks to the Code Reviewer(s) for the insightful feedback.
 - A great thanks to My coding partner(s), morning session team, and standup team for their contributions.
 - Hat tip to anyone whose code was used.
 
