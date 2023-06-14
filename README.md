@@ -112,26 +112,28 @@ You can deploy this project using: GitHub Pages,
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👤 Author <a name="author"></a>
+👤 **Yesuf Fenta**
 
+- GitHub: [@yusufyusie](https://yusufyusie.github.io)
+- LinkedIn [yesufenta](https://www.linkedin.com/in/yusufyusie/)
+- 
+<br />
+
+## 👤 Collaborators <a name="collaborators"></a>
 👤 **Yesuf Fenta**
 
 - GitHub: [@yusufyusie](https://yusufyusie.github.io)
 - LinkedIn: [yesufenta](https://www.linkedin.com/in/yusufyusie/)
-<br />
-
-## 👤 Collaborators <a name="collaborators"></a>
-
+  
 👤 **Lewis Hinga**
 
 - GitHub: [@lewisjn-arch](https://github.com/lewisjn-arch)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/lewis-hinga-b40a501b1/)
-<br />
 
 👤 **Shaun Paul**
 
 - GitHub: [@paulshaun-kdtk](https://github.com/paulshaun-kdtk)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/shaun-sungai-b54339263/)
-<br />
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
