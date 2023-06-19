@@ -16,13 +16,13 @@ btnCloseNav.addEventListener('click', () => {
   });
 
 linkAbout.addEventListener('click', () => {
-  linkAbout.classList.add('hidden');
-  linkAbout.classList.remove('hidden');
+  headerNavMobile.classList.add('hidden');
+  menuBtn.classList.remove('hidden');
 });
 
 linkContact.addEventListener('click', () => {
-  linkContact.classList.add('hidden');
-  linkContact.classList.remove('hidden');
+  headerNavMobile.classList.add('hidden');
+  menuBtn.classList.remove('hidden');
 });
 
 linkPortfolio.addEventListener('click', () => {
