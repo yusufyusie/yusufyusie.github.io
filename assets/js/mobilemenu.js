@@ -5,24 +5,23 @@ const linkPortfolio = document.querySelector('.link-portfolio');
 const linkAbout = document.querySelector('.link-about');
 const linkContact = document.querySelector('.link-contact');
 
-
 menuBtn.addEventListener('click', () => {
   menuBtn.classList.add('hidden');
   headerNavMobile.classList.remove('hidden');
 });
 
 btnCloseNav.addEventListener('click', () => {
-    menuBtn.classList.remove('hidden');
-    headerNavMobile.classList.add('hidden');
+  menuBtn.classList.remove('hidden');
+  headerNavMobile.classList.add('hidden');
   });
-  
+
 linkAbout.addEventListener('click', () => {
   linkAbout.classList.add('hidden');
   linkAbout.classList.remove('hidden');
 });
 
 linkContact.addEventListener('click', () => {
- linkContact.classList.add('hidden');
+  linkContact.classList.add('hidden');
   linkContact.classList.remove('hidden');
 });
 
