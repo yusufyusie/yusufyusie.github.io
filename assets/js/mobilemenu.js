@@ -11,6 +11,16 @@ menuBtn.addEventListener('click', () => {
   headerNavMobile.classList.remove('hidden');
 });
 
+linkAbout.addEventListener('click', () => {
+  linkAbout.classList.add('hidden');
+  linkAbout.classList.remove('hidden');
+});
+
+linkContact.addEventListener('click', () => {
+ linkContact.classList.add('hidden');
+  linkContact.classList.remove('hidden');
+});
+
 linkPortfolio.addEventListener('click', () => {
   headerNavMobile.classList.add('hidden');
   menuBtn.classList.remove('hidden');
