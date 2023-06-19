@@ -1,0 +1,18 @@
+const menuBtn = document.querySelector('.menu-btn');
+const headerNavMobile = document.querySelector('.header-nav-mobile');
+const btnCloseNav = document.querySelector('.btn-close-nav');
+const linkPortfolio = document.querySelector('.link-portfolio');
+const linkAbout = document.querySelector('.link-about');
+const linkContact = document.querySelector('.link-contact');
+
+
+menuBtn.addEventListener('click', () => {
+  menuBtn.classList.add('hidden');
+  headerNavMobile.classList.remove('hidden');
+});
+
+linkPortfolio.addEventListener('click', () => {
+  headerNavMobile.classList.add('hidden');
+  menuBtn.classList.remove('hidden');
+});
+
