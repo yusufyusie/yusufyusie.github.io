@@ -220,3 +220,77 @@ for (let i = 0; i < arraydisplayPopupBtn.length; i++)
     </div>
       `;
   }
+
+  const modal = document.getElementById('firstPopup');
+
+if (document.getElementById('1')) {
+  document.getElementById('1').onclick = () => {
+    modal.innerHTML = workPopup(workPopUp[0]);
+    modal.style.display = 'block';
+    const span = document.getElementById('firstClose');
+    span.addEventListener('click', () => {
+      modal.style.display = 'none';
+    });
+  };
+}
+
+if (document.getElementById('2')) {
+  document.getElementById('2').onclick = () => {
+    modal.innerHTML = workPopup(workPopUp[1]);
+    modal.style.display = 'block';
+    const span = document.getElementById('firstClose');
+    span.addEventListener('click', () => {
+      modal.style.display = 'none';
+    });
+  };
+}
+
+if (document.getElementById('3')) {
+  document.getElementById('3').onclick = () => {
+    modal.innerHTML = workPopup(workPopUp[2]);
+    modal.style.display = 'block';
+    const span = document.getElementById('firstClose');
+    span.addEventListener('click', () => {
+      modal.style.display = 'none';
+    });
+  };
+}
+
+if (document.getElementById('4')) {
+  document.getElementById('4').onclick = () => {
+    modal.innerHTML = workPopup(workPopUp[3]);
+    modal.style.display = 'block';
+    const span = document.getElementById('firstClose');
+    span.addEventListener('click', () => {
+      modal.style.display = 'none';
+    });
+  };
+}
+
+if (document.getElementById('5')) {
+  document.getElementById('5').onclick = () => {
+    modal.innerHTML = workPopup(workPopUp[4]);
+    modal.style.display = 'block';
+    const span = document.getElementById('firstClose');
+    span.addEventListener('click', () => {
+      modal.style.display = 'none';
+    });
+  };
+}
+
+if (document.getElementById('6')) {
+  document.getElementById('6').onclick = () => {
+    modal.innerHTML = workPopup(workPopUp[5]);
+    modal.style.display = 'block';
+    const span = document.getElementById('firstClose');
+    span.addEventListener('click', () => {
+      modal.style.display = 'none';
+    });
+  };
+}
+
+window.onclick = (event) => {
+  if (event.target === modal) {
+    modal.style.display = 'none';
+  }
+};
