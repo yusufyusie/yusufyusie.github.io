@@ -127,6 +127,5 @@ for (let i = 0; i < arraydisplayPopupBtn.length; i++)
                   <img src="./assets/images/github_white.svg" alt="see github icon">
                   </a>
           </div>
-          <script src="popupwindow.js"></script>
   </article>
   `;
