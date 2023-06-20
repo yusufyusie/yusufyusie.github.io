@@ -13,9 +13,11 @@ for (let i = 0; i < arraydisplayPopupBtn.length; i++)
       });
     });
   }
+
   // project details 
   const dataprojects = [
     {
+      id: 1,
       url: './assets/projects/Snapshoot-Portfolio-desktop.svg',
       title: 'Project component 1',
       description:
@@ -26,6 +28,7 @@ for (let i = 0; i < arraydisplayPopupBtn.length; i++)
       linkSource: 'https://github.com/yusufyusie/work-project-1',
     },
     {
+      id: 2,
       url: './assets/projects/modal_desktop.png',
       title: 'Project component 2',
       description:
@@ -40,6 +43,7 @@ for (let i = 0; i < arraydisplayPopupBtn.length; i++)
       linkSource: 'https://github.com/yusufyusie/work-project-2',
     },
     {
+      id: 3,
       url: './assets/projects/Snapshoot-Portfolio-desktop.svg',
       title: 'Project component 3',
       description:
@@ -54,6 +58,7 @@ for (let i = 0; i < arraydisplayPopupBtn.length; i++)
       linkSource: 'https://github.com/yusufyusie/work-project-3',
     },
     {   
+      id: 4,
       url: './assets/projects/modal_desktop.png',
       title: 'Project component 4',
       description:
@@ -68,6 +73,7 @@ for (let i = 0; i < arraydisplayPopupBtn.length; i++)
       linkSource: 'https://github.com/yusufyusie/work-project-4',
     },
     {
+      id: 5,
       url: './assets/projects/Snapshoot-Portfolio-desktop.svg',
       title: 'Project component 5',
       description:
@@ -82,6 +88,7 @@ for (let i = 0; i < arraydisplayPopupBtn.length; i++)
       linkSource: 'https://github.com/yusufyusie/work-project-5',
     },
     {
+      id: 6,
       url: './assets/projects/modal_desktop.png',
       title: 'Project component 6',
       description:
