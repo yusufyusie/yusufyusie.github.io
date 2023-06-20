@@ -7,7 +7,10 @@ for (let i = 0; i < arraydisplayPopupBtn.length; i++)
       cardProjectWork.innerHTML = cardDetailsMobile(i);
       document.body.appendChild(cardProjectWork);
 
-     
+      const btnCloseDetailsMobile = document.querySelector('.btn-close-details');
+      btnCloseDetailsMobile.addEventListener('click', async () => {
+        document.body.removeChild(cardProjectWork);
+      });
     });
   }
   
