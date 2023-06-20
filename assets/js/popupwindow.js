@@ -110,8 +110,8 @@ for (let i = 0; i < arraydisplayPopupBtn.length; i++)
       heading: 'Awesome Books',
       firstBtn: 'See Live',
       secondBtn: 'See Source',
-      liveLink: 'https://alexander16108.github.io/Chaws-Awesome-B00k-Store/',
-      sourceLink: 'https://github.com/alexander16108/Chaws-Awesome-B00k-Store',
+      linkVersion: 'https://example.com/liveversion1/',
+      linkSource: 'https://github.com/yusufyusie/work-project-1',
     },
     {
       id: 2,
@@ -123,8 +123,8 @@ for (let i = 0; i < arraydisplayPopupBtn.length; i++)
       heading: 'Math Magician',
       firstBtn: 'See Live',
       secondBtn: 'See Source',
-      liveLink: 'https://alexis-math-magician.netlify.app/',
-      sourceLink: 'https://github.com/alexander16108/react-math-calculator',
+      linkVersion: 'https://example.com/liveversion1/',
+      linkSource: 'https://github.com/yusufyusie/work-project-1',
     },
     {
       id: 3,
@@ -136,8 +136,8 @@ for (let i = 0; i < arraydisplayPopupBtn.length; i++)
       heading: 'Budget App',
       firstBtn: 'See Live',
       secondBtn: 'See Source',
-      liveLink: 'https://alexander-personal-portfolio.netlify.app/',
-      sourceLink: 'https://github.com/alexander16108/portfolio-project-v2',
+      linkVersion: 'https://example.com/liveversion1/',
+      linkSource: 'https://github.com/yusufyusie/work-project-1',
     },
     {
       id: 4,
@@ -149,8 +149,8 @@ for (let i = 0; i < arraydisplayPopupBtn.length; i++)
       heading: 'Drone Summit',
       firstBtn: 'See Live',
       secondBtn: 'See Source',
-      liveLink: 'https://alexander16108.github.io/capstone-project/',
-      sourceLink: 'https://github.com/alexander16108/capstone-project',
+      linkVersion: 'https://example.com/liveversion1/',
+      linkSource: 'https://github.com/yusufyusie/work-project-1',
     },
     {
       id: 5,
@@ -162,8 +162,8 @@ for (let i = 0; i < arraydisplayPopupBtn.length; i++)
       heading: 'Metrics Webapp',
       firstBtn: 'See Live',
       secondBtn: 'See Source',
-      liveLink: 'https://deploy-preview-3--eloquent-leavitt-8c9f5c.netlify.app/',
-      sourceLink: 'https://github.com/alexander16108/React-Capstone',
+      linkVersion: 'https://example.com/liveversion1/',
+      linkSource: 'https://github.com/yusufyusie/work-project-1',
     },
     
     {
@@ -176,8 +176,8 @@ for (let i = 0; i < arraydisplayPopupBtn.length; i++)
       heading: 'Space Travellers Hub',
       firstBtn: 'See Live',
       secondBtn: 'See Source',
-      liveLink: 'https://spacexapi-demo.netlify.app/',
-      sourceLink: 'https://github.com/nikoescobal/space-travelers',
+      linkVersion: 'https://example.com/liveversion1/',
+      linkSource: 'https://github.com/yusufyusie/work-project-1',
     },
   ];
   
@@ -187,4 +187,36 @@ for (let i = 0; i < arraydisplayPopupBtn.length; i++)
   
   function technologiesPopupDesktop(technologies) {
     return `${technologies.map((technologie) => `<li>${technologie}</li>`).join('')}`;
+  }
+
+  function workPopup(works) {
+    return `
+    <div class="workMainDiv">
+      <span class="cl-tag fa fa-close" id="firstClose"></span>
+      <div class="workImgDiv">
+        <img src=${works.url} alt="My-Work" id="closeTab">
+      </div>
+    <div class="workContentDiv">
+      <div class="workHeadingDiv">
+        <h1>${works.heading}</h1>
+        <ul class="workButtonDiv">
+          <li><a href=${works.linkVersion} target="_blank"><button type="button" >${works.firstBtn}<i class="fa fa-external-link" aria-hidden="true"></i></button></a></li>
+          <li><a href=${works.linkSource} target="_blank"><button type="button">${works.secondBtn}<i class="fa fa-github" aria-hidden="true"></i></button></a></li>
+        </ul>
+      </div>
+      <div class="list-boxPop">
+        <ul>
+            ${(window.innerWidth < 768) ? technologiesPopup(works.technologies_list) : technologiesPopupDesktop(works.desktoplist)}
+        </ul>
+      </div>
+      <p>${works.description}</p>
+      <div class="mobileButtonDiv">
+      <ul class="workButtonDiv">
+          <li><a href=${works.linkVersion} target="_blank"><button type="button" >${works.firstBtn}<i class="fa fa-external-link" aria-hidden="true"></i></button></a></li>
+          <li><a href=${works.linkSource} target="_blank"><button type="button">${works.secondBtn}<i class="fa fa-github" aria-hidden="true"></i></button></a></li>
+      </ul>
+      </div>
+    </div>
+    </div>
+      `;
   }
