@@ -18,121 +18,173 @@ for (let i = 0; i < arraydisplayPopupBtn.length; i++)
   const dataprojects = [
     {
       id: 1,
-      url: './assets/projects/Snapshoot-Portfolio-desktop.svg',
-      title: 'Project component 1',
-      description:
-        'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys ',
-      technologies: {tech1: 'HTMl', tech2: 'JS',tech3: 'CSS', tech4: 'Ruby & Rails',
-        },
+      url: '.assets/images/Img-plaholder.svg',
+      title: 'Multi-Post Stories Gain+Glory',
+      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+      technologies: ['HTMl', 'JS', 'CSS', 'Ruby & Rails'],
       linkVersion: 'https://example.com/liveversion1/',
       linkSource: 'https://github.com/yusufyusie/work-project-1',
     },
     {
       id: 2,
-      url: './assets/projects/modal_desktop.png',
-      title: 'Project component 2',
-      description:
-        'Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-      technologies: {
-        tech1: 'HTMl',
-        tech2: 'JS',
-        tech3: 'CSS',
-        tech4: 'Ruby & Rails',
-      },
-      linkVersion: 'https://example.com/liveversion2/',
-      linkSource: 'https://github.com/yusufyusie/work-project-2',
+      url: '.assets/images/Img-plaholder.svg',
+      title: 'Multi-Post Stories Gain+Glory',
+      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+      technologies: ['HTMl', 'JS', 'CSS', 'Ruby & Rails'],
+      linkVersion: 'https://example.com/liveversion1/',
+      linkSource: 'https://github.com/yusufyusie/work-project-1',
     },
     {
       id: 3,
-      url: './assets/projects/Snapshoot-Portfolio-desktop.svg',
-      title: 'Project component 3',
-      description:
-        'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-      technologies: {
-        tech1: 'HTMl',
-        tech2: 'JS',
-        tech3: 'CSS',
-        tech4: 'Ruby & Rails',
-      },
-      linkVersion: 'https://example.com/liveversion3/',
-      linkSource: 'https://github.com/yusufyusie/work-project-3',
+      url: '.assets/images/Img-plaholder.svg',
+      title: 'Multi-Post Stories Gain+Glory',
+      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+      technologies: ['HTMl', 'JS', 'CSS', 'Ruby & Rails'],
+      linkVersion: 'https://example.com/liveversion1/',
+      linkSource: 'https://github.com/yusufyusie/work-project-1',
     },
     {   
       id: 4,
-      url: './assets/projects/modal_desktop.png',
-      title: 'Project component 4',
-      description:
-        'Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem',
-      technologies: {
-        tech1: 'HTMl',
-        tech2: 'JS',
-        tech3: 'CSS',
-        tech4: 'Ruby & Rails',
-      },
-      linkVersion: 'https://example.com/liveversion4/',
-      linkSource: 'https://github.com/yusufyusie/work-project-4',
+      url: '.assets/images/Img-plaholder.svg',
+      title: 'Multi-Post Stories Gain+Glory',
+      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+      technologies: ['HTMl', 'JS', 'CSS', 'Ruby & Rails'],
+      linkVersion: 'https://example.com/liveversion1/',
+      linkSource: 'https://github.com/yusufyusie/work-project-1',
     },
     {
       id: 5,
-      url: './assets/projects/Snapshoot-Portfolio-desktop.svg',
-      title: 'Project component 5',
-      description:
-        'Lorem Ipsum is simply dummy text of the printing and typesetting industry. a',
-      technologies: {
-        tech1: 'HTMl',
-        tech2: 'JS',
-        tech3: 'CSS',
-        tech4: 'Ruby & Rails',
-      },
-      linkVersion: 'https://example.com/liveversion5/',
-      linkSource: 'https://github.com/yusufyusie/work-project-5',
+      url: '.assets/images/Img-plaholder.svg',
+      title: 'Multi-Post Stories Gain+Glory',
+      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+      technologies: ['HTMl', 'JS', 'CSS', 'Ruby & Rails'],
+      linkVersion: 'https://example.com/liveversion1/',
+      linkSource: 'https://github.com/yusufyusie/work-project-1',
     },
     {
       id: 6,
-      url: './assets/projects/modal_desktop.png',
-      title: 'Project component 6',
-      description:
-        'Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-      technologies: {
-        tech1: 'HTMl',
-        tech2: 'JS',
-        tech3: 'CSS',
-        tech4: 'Ruby & Rails',
-      },
-      linkVersion: 'https://example.com/liveversion6/',
-      linkSource: 'https://github.com/yusufyusie/work-project-6',
+      url: '.assets/images/Img-plaholder.svg',
+      title: 'Multi-Post Stories Gain+Glory',
+      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+      technologies_list: ['HTMl', 'JS', 'CSS', 'Ruby & Rails'],
+      linkVersion: 'https://example.com/liveversion1/',
+      linkSource: 'https://github.com/yusufyusie/work-project-1',
+      btn_text: 'See Project',
     },
   ];
 
-  const cardDetailsMobile = (index) => `
-  <article class="card-details-mobile">
-          <button type="button" class="btn-close-details">
-              <img src="./assets/images/Icon-Cancel.svg" alt="cancel icon">
-          </button>
-          <div class="card-image-details-mobile">
-              <img src=${dataprojects[index].url} alt="a back in mountain">
-          </div>
-          <h2 class="card-title-mobile">
-              ${dataprojects[index].title}
-          </h2>
-          <ul class="tags-mobile">
-              <li class="tag-mobile">${dataprojects[index].technologies.tech1}</li>
-              <li class="tag-mobile">${dataprojects[index].technologies.tech2}</li>
-              <li class="tag-mobile">${dataprojects[index].technologies.tech3}</li>
-              <li class="tag-mobile">${dataprojects[index].technologies.tech4}</li>
-          </ul>
-          <p class="card-paragraph-mobile">
-            ${dataprojects[index].description}
-          </p>
-          <div class="card-button-mobile">
-                  <a href=${dataprojects[index].linkVersion} class="btn-card-details-mobile">
-                  See Live
-                  <img src="./assets/images/see_live_icon.svg" alt="see live icon">
-                  </a>
-                  <a href=${dataprojects[index].linkSource} class="btn-card-details-mobile">
-                  See Sources
-                  <img src="./assets/images/github_white.svg" alt="see github icon">
-                  </a>
-          </div>
-  </article>
-  `;
+  
+  function technologies(technologies) {
+    return `${technologies.map((technologie) => `<li>${technologie}</li>`).join('')} `;
+  }
+
+  function workTemplate(work) {
+    return `
+      <li class="flex-box">
+      <ul class="firstList">
+        <li><img src=${work.url} alt="My-Work"></li>
+        <li><h1>${work.title}</h1></li>
+      </ul>
+    
+    <div class="list-box">
+   <ul>
+   ${languages(work.technologies_list)}
+   </ul>
+   </div>
+    <ul class="See-btn" id="seeBtn-List">
+      <li><button type="button" class="see-project" id=${work.id}>${work.btn_text}</button></li>
+    </ul>
+  </li>
+      `;
+  }
+
+  document.getElementById('dynamicWork').innerHTML = `${workData.map(workTemplate).join('')}`;
+  const workPopUp = [
+    {
+      id: 1,
+      url: './Images/awesomeBook.png',
+      technologies_list: ['HTML', 'CSS', 'Javascript'],
+      desktoplist: ['Codekit', 'Github', 'Javascript', 'Bootstrap', 'Terminal'],
+      btn_text: 'See Project',
+      description: '`Awesome Books` is a simple website that allows the user to add and remove books and display them. This app also stores <strong>books</strong> in a local storage',
+      heading: 'Awesome Books',
+      firstBtn: 'See Live',
+      secondBtn: 'See Source',
+      liveLink: 'https://alexander16108.github.io/Chaws-Awesome-B00k-Store/',
+      sourceLink: 'https://github.com/alexander16108/Chaws-Awesome-B00k-Store',
+    },
+    {
+      id: 2,
+      url: './Images/calculatorApp.png',
+      technologies_list: ['React', 'HTML', 'CSS'],
+      desktoplist: ['Netlify', 'Github', 'Bootstrap', 'Terminal'],
+      btn_text: 'See Project',
+      description: '"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations.',
+      heading: 'Math Magician',
+      firstBtn: 'See Live',
+      secondBtn: 'See Source',
+      liveLink: 'https://alexis-math-magician.netlify.app/',
+      sourceLink: 'https://github.com/alexander16108/react-math-calculator',
+    },
+    {
+      id: 3,
+      url: './Images/budgetapps.png',
+      technologies_list: ['HTMl', 'JS', 'CSS', 'Ruby & Rails'],
+      desktoplist: ['Codekit', 'Github', 'Bootstrap', 'Terminal'],
+      btn_text: 'See Project',
+      description: ' Easy to adapt and deploy portfolio project covering most important sections(about, exp, skills, projects), inspired with solutions found at GitHub. Check live preview(link below)',
+      heading: 'Budget App',
+      firstBtn: 'See Live',
+      secondBtn: 'See Source',
+      liveLink: 'https://alexander-personal-portfolio.netlify.app/',
+      sourceLink: 'https://github.com/alexander16108/portfolio-project-v2',
+    },
+    {
+      id: 4,
+      url: './Images/capstone.png',
+      technologies_list: ['HTMl', 'JS', 'CSS', 'Ruby & Rails'],
+      desktoplist: ['Codekit', 'Github', 'Bootstrap', 'Terminal'],
+      btn_text: 'See Project',
+      description: 'The future of passenger drones remains uncertain since this technology is so new. Innovation in aerial drone technology, and in aerial traffic coordination, control, and collision-avoidance could result in rapid proliferation of passenger drones for civilian travel.',
+      heading: 'Drone Summit',
+      firstBtn: 'See Live',
+      secondBtn: 'See Source',
+      liveLink: 'https://alexander16108.github.io/capstone-project/',
+      sourceLink: 'https://github.com/alexander16108/capstone-project',
+    },
+    {
+      id: 5,
+      url: './Images/metricsapps.png',
+      technologies_list: ['HTMl', 'JS', 'CSS', 'Ruby & Rails'],
+      desktoplist: ['Codekit', 'Github', 'Bootstrap', 'Terminal'],
+      btn_text: 'See Project',
+      description: 'Covid-19 metrics app collects information from different data sources to provide details about covid-19. You can filter data by continent and country.',
+      heading: 'Metrics Webapp',
+      firstBtn: 'See Live',
+      secondBtn: 'See Source',
+      liveLink: 'https://deploy-preview-3--eloquent-leavitt-8c9f5c.netlify.app/',
+      sourceLink: 'https://github.com/alexander16108/React-Capstone',
+    },
+    
+    {
+      id: 6,
+      url: './Images/worldfoods.png',
+      technologies_list: ['HTMl', 'JS', 'CSS', 'Ruby & Rails'],
+      desktoplist: ['Codekit', 'Github', 'Bootstrap', 'Terminal'],
+      btn_text: 'See Project',
+      description: 'In this project, we built a space travelers application with React and Redux. Here, users can navigate between Rockets, Missions, and Dragons.',
+      heading: 'Space Travellers Hub',
+      firstBtn: 'See Live',
+      secondBtn: 'See Source',
+      liveLink: 'https://spacexapi-demo.netlify.app/',
+      sourceLink: 'https://github.com/nikoescobal/space-travelers',
+    },
+  ];
+  
+  function technologiesPopup(technologies) {
+    return `${technologies.map((technologie) => `<li>${technologie}</li>`).join('')}`;
+  }
+  
+  function technologiesPopupDesktop(technologies) {
+    return `${technologies.map((technologie) => `<li>${technologie}</li>`).join('')}`;
+  }
