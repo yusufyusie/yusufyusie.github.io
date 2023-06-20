@@ -111,5 +111,6 @@ const dataprojects = [
                   <img src="./assets/images/github_white.svg" alt="see github icon">
                   </a>
           </div>
+          <script src="popupwindow.js"></script>
   </article>
   `;
