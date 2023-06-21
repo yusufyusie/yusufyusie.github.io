@@ -63,3 +63,96 @@
   }
 
   document.getElementById('dynamicWork').innerHTML = `${dataprojects.map(workGroup).join('')}`;
+
+  // Project Popup
+
+  const projectPopUp = [
+    {
+      id: 1,
+      image: './assets/images/Img-plaholder.svg',
+      name: 'Multi-Post Stories Gain+Glory',
+      languages_list: ['HTMl', 'JS', 'CSS', 'Ruby & Rails'],
+      desktoplist: ['Codekit', 'Github', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
+      btn_popup: 'See Project',
+      description: ' Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+      firstBtn: 'See Live',
+      secondBtn: 'See Source',
+      linkVersion: 'https://yusufyusie-app/',
+      linkSource: 'https://github.com/yusufyusie v1',
+    },
+    {
+      id: 2,
+      image: './assets/images/Img-plaholder.svg',
+      name: 'Multi-Post Stories Gain+Glory',
+      languages_list: ['HTMl', 'JS', 'CSS', 'Ruby & Rails'],
+      desktoplist: ['Codekit', 'Github', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
+      btn_popup: 'See Project',
+      description: ' Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+      firstBtn: 'See Live',
+      secondBtn: 'See Source',
+      linkVersion: 'https://yusufyusie-app/',
+      linkSource: 'https://github.com/yusufyusie v1',
+    },
+    {
+      id: 3,
+      image: './assets/images/Img-plaholder.svg',
+      name: 'Multi-Post Stories Gain+Glory',
+      languages_list: ['HTMl', 'JS', 'CSS', 'Ruby & Rails'],
+      desktoplist: ['Codekit', 'Github', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
+      btn_popup: 'See Project',
+      description: ' Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+      firstBtn: 'See Live',
+      secondBtn: 'See Source',
+      linkVersion: 'https://yusufyusie-app/',
+      linkSource: 'https://github.com/yusufyusie v1',
+    },
+    {   
+      id: 4,
+      image: './assets/images/Img-plaholder.svg',
+      name: 'Multi-Post Stories Gain+Glory',
+      languages_list: ['HTMl', 'JS', 'CSS', 'Ruby & Rails'],
+      desktoplist: ['Codekit', 'Github', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
+      btn_popup: 'See Project',
+      description: ' Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+      firstBtn: 'See Live',
+      secondBtn: 'See Source',
+      linkVersion: 'https://yusufyusie-app/',
+      linkSource: 'https://github.com/yusufyusie v1',
+    },
+    {
+      id: 5,
+      image: './assets/images/Img-plaholder.svg',
+      name: 'Multi-Post Stories Gain+Glory',
+      languages_list: ['HTMl', 'JS', 'CSS', 'Ruby & Rails'],
+      desktoplist: ['Codekit', 'Github', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
+      btn_popup: 'See Project',
+      description: ' Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+      firstBtn: 'See Live',
+      secondBtn: 'See Source',
+      linkVersion: 'https://yusufyusie-app/',
+      linkSource: 'https://github.com/yusufyusie v1',
+    },
+    {
+      id: 6,
+      image: './assets/images/Img-plaholder.svg',
+      name: 'Multi-Post Stories Gain+Glory',
+      languages_list: ['HTMl', 'JS', 'CSS', 'Ruby & Rails'],
+      desktoplist: ['Codekit', 'Github', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
+      btn_popup: 'See Project',
+      description: ' Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+      firstBtn: 'See Live',
+      secondBtn: 'See Source',
+      linkVersion: 'https://yusufyusie-app/',
+      linkSource: 'https://github.com/yusufyusie v1',
+    },
+  ];
+
+  function languagesPopup(languages) {
+    return `${languages.map((language) => `<li>${language}</li>`).join('')}`;
+  }
+  
+  function languagesPopupDesktop(languages) {
+    return `${languages.map((language) => `<li>${language}</li>`).join('')}`;
+  }
+
+ 

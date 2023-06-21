@@ -246,7 +246,7 @@ button:active {
   .mobile-home {
     padding-bottom: 15em;
   }
-  
+
   .grid-items {
     width: 100%;
     display: grid;
@@ -457,14 +457,21 @@ button:active {
     content: none;
   }
 
-  .grid-items
-   {
+  .grid-items {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto auto auto;
     gap: 20px 10px;
   }
+
+  /* .mobileButtonDiv ul li {
+    margin: 2px;
+  }
+
+  .mobileButtonDiv {
+    display: block;
+  } */
 }
 
 @media (min-width: 1050px) {
@@ -534,6 +541,221 @@ button:active {
     grid-row: 1 / 2;
   }
 }
+
+/* Start the popup part */
+/* .workMainDiv {
+  display: flex;
+  background-color: #fff;
+  flex-direction: column;
+  height: auto;
+  width: 70%;
+  margin: 5vh 15%;
+  border-radius: 10px;
+}
+
+.workMainDiv span {
+  display: flex;
+  flex-direction: row-reverse;
+  font-size: 24px;
+  padding: 5px 10px;
+  color: rgb(29, 28, 28);
+}
+
+.workImgDiv {
+  display: flex;
+  flex-direction: column;
+  height: 54%;
+  width: 96%;
+  margin: 2%;
+  padding: 0;
+  border-radius: 5px;
+}
+
+.workImgDiv img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.workContentDiv p {
+  justify-content: left;
+  font-size: 19px;
+  font-weight: normal;
+  line-height: 24px;
+  color: #344563;
+  padding: 5px 10px;
+}
+.workContentDiv {
+  display: flex;
+  flex-direction: column;
+  margin: 2%;
+}
+
+.workNameDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.workNameDiv h1 {
+  font-size: 32px;
+  font-weight: 600;
+  padding-left: 10px;
+  line-height: 44px;
+  color: #172b4d;
+  text-align: left;
+}
+
+.workNameDiv .workButtonDiv {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.workButtonDiv a:hover {
+  text-decoration: none;
+}
+
+.workButtonDiv button {
+  margin-right: 5px;
+  display: flex;
+  padding: 10px 12px;
+  width: 150px;
+  background: #36b37f;
+  border-radius: 4px;
+  border: none;
+  height: 48px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.workButtonDiv button:hover {
+  background: #21df8f;
+  border: 1px solid grey;
+  transform: scale(1.05);
+}
+
+.workButtonDiv i {
+  padding-top: 8px;
+  padding-left: 10px;
+  font-size: 16px;
+  color: white;
+}
+
+.workButtonDiv a {
+  text-decoration: none;
+}
+
+.mobileButtonDiv ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 5px 0;
+}
+
+.mobileButtonDiv ul {
+  list-style-type: none;
+}
+
+.list-boxPop {
+  display: flex;
+  justify-content: left;
+  left: 0;
+  margin-right: 5px;
+}
+
+.list-boxPop ul {
+  padding: 10px 12px;
+  list-style-type: none;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.list-boxPop ul li {
+  font-size: 12px;
+  line-height: 16px;
+  height: 36px;
+  padding-right: 7px;
+  padding-left: 7px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #3a4a42;
+  background: #ebf0ee;
+  border-radius: 4px;
+  letter-spacing: 0.03em;
+} */
+
+/* mobile Popup for my work section */
+/* .mobilePopup {
+  display: none;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: auto;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+} */
+
+/* media quries */
+/* @media (max-width: 768px) {
+  .workMainDiv {
+    display: flex;
+    background-color: #fff;
+    flex-direction: column;
+    height: auto;
+    width: 80%;
+    margin: 5vh 10%;
+    border-radius: 10px;
+  }
+  .workImgDiv {
+    display: flex;
+    flex-direction: column;
+    height: 44%;
+    width: 96%;
+    margin: 2%;
+    padding: 0;
+    border-radius: 5px;
+  }
+
+  .workNameDiv .workButtonDiv {
+    display: none;
+  }
+
+  .workNameDiv .workButtonDiv {
+    display: none;
+  }
+
+  .mobileButtonDiv {
+    display: block;
+  }
+
+  .mobileButtonDiv ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 5px 0;
+    list-style-type: none;
+  }
+
+  .mobileButtonDiv ul li {
+    margin-bottom: 3px;
+  }
+} */
 
 /* About me group starts */
 
@@ -609,6 +831,10 @@ button:active {
   .about-myself {
     background: url(./assets/images/about_me_desktop_left.svg) no-repeat 0% 20%, url(./assets/images/about_me_desktop_rigth.svg) no-repeat 100% 0%;
   }
+
+  /* .mobileButtonDiv {
+    display: none;
+  } */
 }
 
 @media (min-width: 768px) {
