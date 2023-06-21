@@ -155,4 +155,36 @@
     return `${languages.map((language) => `<li>${language}</li>`).join('')}`;
   }
 
- 
+  function projectPopup(pop_works) {
+    return `
+    <div class="workMainDiv">
+      <span class="cl-tag fa fa-close" id="firstClose"></span>
+      <div class="workImgDiv">
+        <img src=${pop_works.image} alt="My-Work" id="closeTab">
+      </div>
+    <div class="workContentDiv">
+      <div class="workNameDiv">
+        <h1>${pop_works.name}</h1>
+        <ul class="workButtonDiv">
+          <li><a href=${pop_works.linkVersion} target="_blank"><button type="button" >${pop_works.firstBtn}<i class="fa fa-external-link" aria-hidden="true"></i></button></a></li>
+          <li><a href=${pop_works.linkSource} target="_blank"><button type="button">${pop_works.secondBtn}<i class="fa fa-github" aria-hidden="true"></i></button></a></li>
+        </ul>
+      </div>
+      <div class="list-boxPop">
+        <ul>
+            ${(window.innerWidth < 768) ? languagesPopup(pop_works.languages_list) : languagesPopupDesktop(pop_works.desktoplist)}
+        </ul>
+      </div>
+      <p>${pop_works.description}</p>
+      <div class="mobileButtonDiv">
+      <ul class="workButtonDiv">
+          <li><a href=${pop_works.linkVersion} target="_blank"><button type="button" >${pop_works.firstBtn}<i class="fa fa-external-link" aria-hidden="true"></i></button></a></li>
+          <li><a href=${pop_works.linkSource} target="_blank"><button type="button">${pop_works.secondBtn}<i class="fa fa-github" aria-hidden="true"></i></button></a></li>
+      </ul>
+      </div>
+    </div>
+    </div>
+      `;
+  }
+
+  
