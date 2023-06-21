@@ -595,6 +595,7 @@ button:active {
   color: #344563;
   padding: 5px 10px;
 }
+
 .workContentDiv {
   display: flex;
   flex-direction: column;
@@ -607,7 +608,7 @@ button:active {
   justify-content: space-between;
 }
 
-.workNameDiv h1 {
+.workNameDiv h2:first-child {
   font-size: 32px;
   font-weight: 600;
   padding-left: 10px;
@@ -654,11 +655,11 @@ button:active {
   color: white;
 }
 
-.workButtonDiv a {
+.workButtonDiv > a:hover {
   text-decoration: none;
 }
 
-.mobileButtonDiv ul {
+.mobileButtonDiv > ul {
   list-style-type: none;
   display: flex;
   flex-direction: row;
@@ -666,10 +667,6 @@ button:active {
   flex-wrap: wrap;
   padding: 0;
   margin: 5px 0;
-}
-
-.mobileButtonDiv ul {
-  list-style-type: none;
 }
 
 .list-boxPop {
@@ -687,7 +684,7 @@ button:active {
   flex-wrap: wrap;
 }
 
-.list-boxPop ul li {
+.list-boxPop > ul > li {
   font-size: 12px;
   line-height: 16px;
   height: 36px;
@@ -730,6 +727,7 @@ button:active {
     margin: 5vh 10%;
     border-radius: 10px;
   }
+
   .workImgDiv {
     display: flex;
     flex-direction: column;
@@ -887,7 +885,7 @@ form {
   align-items: center;
 }
 
-.social-media > ul > li > a {
+.social-media > ul > li > a:hover {
   text-decoration: none;
   color: #42526e;
   font-size: 20px;
