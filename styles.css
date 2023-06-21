@@ -249,30 +249,41 @@ button:active {
 }
 
 /* Work group starts */
-.card-work-row1 {
+.recent_works {
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 200px repeat(5, 6fr);
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto auto auto auto;
+  padding: 10px;
+  background-color: white;
+}
+
+.recent_works h1 {
   text-align: center;
-  width: 90%;
-  margin: 0 auto;
+  font-size: 48px;
+  font-weight: bold;
+  color: #172b4d;
+  padding-left: 20px;
+  padding-top: 14px;
+  padding-right: 20px;
+  margin-bottom: 1rem;
 }
 
-.card-work-row1 h1:first-child {
-  padding: 1em;
-}
-
-.card-work-row1 h1:first-child::after {
-  content: "";
-  height: 4px;
-  width: 48px;
-  margin: 0 auto;
-  display: block;
-  position: relative;
-  top: 20px;
-  z-index: -1;
-  background: var(--color-primary);
+.recent_works hr {
+  align-items: center;
+  width: 18%;
+  background: #36b37e;
+  height: 5px;
   border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.grid-item {
+  background-color: white;
+  border: 1px solid white;
+  list-style-type: none;
+  padding: 1px;
+  font-size: 30px;
+  text-align: center;
 }
 
 .card {
@@ -423,19 +434,19 @@ button:active {
 }
 
 @media (min-width: 800px) {
-  .card-work-row1 {
+  .recent_works {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 200px repeat(3, 1fr);
   }
 
-  .card-work-row1 h1:first-child {
+  .recent_works h1:first-child {
     align-self: flex-end;
     padding: 1em;
     grid-column: 1 / -1;
     grid-row: 1 / 2;
   }
 
-  .card-work-row1 h1:first-child::after {
+  .recent_works h1:first-child::after {
     content: none;
   }
 }
@@ -496,16 +507,30 @@ button:active {
 }
 
 @media (min-width: 1150px) {
-  .card-work-row1 {
+  .recent_works {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 200px repeat(2, 1fr);
   }
 
-  .card-work-row1 h1:first-child {
+  .recent_works h1:first-child {
     padding: 1em;
     grid-column: 1 / 4;
     grid-row: 1 / 2;
   }
+}
+/* mobilePopup for flexBox */
+.mobilePopup {
+  display: none;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: auto;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
 }
 
 /* About me group starts */
