@@ -51,21 +51,15 @@
   function workGroup(recent_works)
   {
     return `
-    <li class="flex-box">
-    <ul class="firstList">
-      <li><img src=${recent_works.url} alt="My-Work"></li>
-      <li><h1>${recent_works.title}</h1></li>
-    </ul>
-  
-  <div class="list-box">
- <ul>
- ${languages(recent_works.languages_list)}
- </ul>
- </div>
-  <ul class="See-btn" id="seeBtn-List">
-    <li><button type="button" class="see-project" id=${recent_works.id}>${recent_works.btn_popup}</button></li>
-  </ul>
-</li>
+    <article  class="card">
+       <div class="card-image"><img src=${recent_works.url} alt="My-Work"></div>
+        <li><h2 class="project-title">${recent_works.title}</h2></li>
+      <ul class="tags">
+        ${languages(recent_works.languages_list)}
+      </ul>
+    <button type="button" class="btn_popup" id=${recent_works.id}>${recent_works.btn_popup}</button>
+</article >
     `;
   }
+
   document.getElementById('dynamicWork').innerHTML = `${dataprojects.map(workGroup).join('')}`;
