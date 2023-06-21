@@ -246,6 +246,14 @@ button:active {
   .mobile-home {
     padding-bottom: 15em;
   }
+
+  .grid-items {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 20px 10px;
+  }
 }
 
 /* Work group starts */
@@ -273,6 +281,15 @@ button:active {
   z-index: -1;
   background: var(--color-primary);
   border-radius: 8px;
+}
+
+.grid-items {
+  background-color: white;
+  border: 1px solid white;
+  list-style-type: none;
+  padding: 1px;
+  font-size: 30px;
+  text-align: center;
 }
 
 .card {
@@ -311,6 +328,17 @@ button:active {
   padding: 0;
   display: flex;
   justify-content: space-around;
+}
+
+.list-boxPop > ul > li {
+  font-size: 12px;
+  line-height: 16px;
+  color: #344563;
+  background: #ebf0ee;
+  padding: 0.5em;
+  margin: 0 0.5em;
+  border-radius: 2px;
+  letter-spacing: 0.03em;
 }
 
 .card > .tags > li {
@@ -422,7 +450,8 @@ button:active {
   margin-left: 1.3em;
 }
 
-@media (min-width: 800px) {
+/* Media query for medium screen */
+@media (min-width: 768px) and (max-width: 1024px) {
   .card-work-row1 {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 200px repeat(3, 1fr);
@@ -437,6 +466,32 @@ button:active {
 
   .card-work-row1 h1:first-child::after {
     content: none;
+  }
+
+  .grid-items {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    gap: 20px 10px;
+  }
+
+  .mobileButtonDiv ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 5px 0;
+  }
+
+  .mobileButtonDiv ul li {
+    margin: 2px;
+  }
+
+  .mobileButtonDiv {
+    display: block;
   }
 }
 
@@ -505,6 +560,202 @@ button:active {
     padding: 1em;
     grid-column: 1 / 4;
     grid-row: 1 / 2;
+  }
+}
+
+/* Start the popup part */
+.workMainDiv {
+  display: flex;
+  background-color: #fff;
+  flex-direction: column;
+  height: auto;
+  width: 70%;
+  margin: 5vh 15%;
+  border-radius: 10px;
+}
+
+.workMainDiv span {
+  display: flex;
+  flex-direction: row-reverse;
+  font-size: 24px;
+  padding: 5px 10px;
+  color: rgb(29, 28, 28);
+}
+
+.workImgDiv {
+  display: flex;
+  flex-direction: column;
+  height: 54%;
+  width: 96%;
+  margin: 2%;
+  padding: 0;
+  border-radius: 5px;
+}
+
+.workImgDiv img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.workContentDiv p {
+  justify-content: left;
+  font-size: 19px;
+  font-weight: normal;
+  line-height: 24px;
+  color: #344563;
+  padding: 5px 10px;
+}
+
+.workContentDiv {
+  display: flex;
+  flex-direction: column;
+  margin: 2%;
+}
+
+.workNameDiv {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+  margin-top: 0;
+  margin-right: 1px;
+  margin-bottom: -15px;
+}
+
+.workNameDiv h2:first-child {
+  font-size: 25px;
+  font-weight: 450;
+  padding-left: 5px;
+  line-height: 38px;
+  color: #172b4d;
+  text-align: left;
+}
+
+.workNameDiv .workButtonDiv {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-top: -15px;
+}
+
+.workButtonDiv a:hover {
+  text-decoration: none;
+}
+
+.workButtonDiv button {
+  margin-right: 4px;
+  display: flex;
+  padding: 10px 5px;
+  width: 150px;
+  background: #36b37f;
+  border-radius: 4px;
+  border: none;
+  height: 48px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+}
+
+.workButtonDiv button:hover {
+  background: #21df8f;
+  border: 1px solid grey;
+  transform: scale(1.05);
+}
+
+.workButtonDiv i {
+  padding-top: 8px;
+  padding-left: 10px;
+  font-size: 16px;
+  color: white;
+}
+
+.workButtonDiv > a:hover {
+  text-decoration: none;
+}
+
+.mobileButtonDiv > ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 5px 0;
+}
+
+.list-boxPop {
+  display: flex;
+  justify-content: left;
+  left: 0;
+  margin-right: 5px;
+}
+
+.list-boxPop ul {
+  padding: 10px 12px;
+  list-style-type: none;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* mobile Popup for my work section */
+.mobilePopup {
+  display: none;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: auto;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+}
+
+/* media quries */
+@media (max-width: 768px) {
+  .workMainDiv {
+    display: flex;
+    background-color: #fff;
+    flex-direction: column;
+    height: auto;
+    width: 80%;
+    margin: 5vh 10%;
+    border-radius: 10px;
+  }
+
+  .workImgDiv {
+    display: flex;
+    flex-direction: column;
+    height: 44%;
+    width: 96%;
+    margin: 2%;
+    padding: 0;
+    border-radius: 5px;
+  }
+
+  .workNameDiv .workButtonDiv {
+    display: none;
+  }
+
+  .mobileButtonDiv {
+    display: block;
+  }
+
+  .mobileButtonDiv ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 5px 0;
+    list-style-type: none;
+  }
+
+  .mobileButtonDiv ul li {
+    margin-bottom: 3px;
   }
 }
 
@@ -582,6 +833,10 @@ button:active {
   .about-myself {
     background: url(./assets/images/about_me_desktop_left.svg) no-repeat 0% 20%, url(./assets/images/about_me_desktop_rigth.svg) no-repeat 100% 0%;
   }
+
+  .mobileButtonDiv {
+    display: none;
+  }
 }
 
 @media (min-width: 768px) {
@@ -624,7 +879,7 @@ form {
   align-items: center;
 }
 
-.social-media > ul > li > a {
+.social-media > ul > li > a:hover {
   text-decoration: none;
   color: #42526e;
   font-size: 20px;
