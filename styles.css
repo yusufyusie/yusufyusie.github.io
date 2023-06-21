@@ -330,6 +330,23 @@ button:active {
   justify-content: space-around;
 }
 
+.list-boxPop > ul > li {
+  font-size: 12px;
+  line-height: 16px;
+  height: 36px;
+  padding-right: 7px;
+  padding-left: 7px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #3a4a42;
+  background: #ebf0ee;
+  border-radius: 4px;
+  letter-spacing: 0.03em;
+}
+
 .card > .tags > li {
   background: #ebf0ee;
   font-size: 12px;
@@ -684,23 +701,6 @@ button:active {
   flex-wrap: wrap;
 }
 
-.list-boxPop > ul > li {
-  font-size: 12px;
-  line-height: 16px;
-  height: 36px;
-  padding-right: 7px;
-  padding-left: 7px;
-  padding-top: 7px;
-  padding-bottom: 7px;
-  margin-right: 5px;
-  margin-bottom: 5px;
-  font-weight: 600;
-  color: #3a4a42;
-  background: #ebf0ee;
-  border-radius: 4px;
-  letter-spacing: 0.03em;
-}
-
 /* mobile Popup for my work section */
 .mobilePopup {
   display: none;
@@ -736,10 +736,6 @@ button:active {
     margin: 2%;
     padding: 0;
     border-radius: 5px;
-  }
-
-  .workNameDiv .workButtonDiv {
-    display: none;
   }
 
   .workNameDiv .workButtonDiv {
