@@ -70,7 +70,7 @@
     {
       id: 1,
       image: './assets/projects/Snapshoot-Portfolio-desktop.svg',
-      name: 'Multi-Post Stories Gain+Glory',
+      name: 'Keeping track of hundreds of components',
       languages_list: ['HTMl', 'JS', 'CSS', 'Ruby & Rails'],
       desktoplist: ['Codekit', 'Github', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
       btn_popup: 'See Project',
@@ -83,7 +83,7 @@
     {
       id: 2,
       image: './assets/projects/modal_mobile.png',
-      name: 'Multi-Post Stories Gain+Glory',
+      name: 'Keeping track of hundreds of components',
       languages_list: ['HTMl', 'JS', 'CSS', 'Ruby & Rails'],
       desktoplist: ['Codekit', 'Github', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
       btn_popup: 'See Project',
@@ -96,7 +96,7 @@
     {
       id: 3,
       image: './assets/projects/modal_desktop.png',
-      name: 'Multi-Post Stories Gain+Glory',
+      name: 'Keeping track of hundreds of components',
       languages_list: ['HTMl', 'JS', 'CSS', 'Ruby & Rails'],
       desktoplist: ['Codekit', 'Github', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
       btn_popup: 'See Project',
@@ -109,7 +109,7 @@
     {   
       id: 4,
       image: './assets/projects/Snapshoot-Portfolio-mobile.svg',
-      name: 'Multi-Post Stories Gain+Glory',
+      name: 'Keeping track of hundreds of components',
       languages_list: ['HTMl', 'JS', 'CSS', 'Ruby & Rails'],
       desktoplist: ['Codekit', 'Github', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
       btn_popup: 'See Project',
@@ -122,7 +122,7 @@
     {
       id: 5,
       image: './assets/projects/Snapshoot-Portfolio-desktop.svg',
-      name: 'Multi-Post Stories Gain+Glory',
+      name: 'Keeping track of hundreds of components',
       languages_list: ['HTMl', 'JS', 'CSS', 'Ruby & Rails'],
       desktoplist: ['Codekit', 'Github', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
       btn_popup: 'See Project',
@@ -135,7 +135,7 @@
     {
       id: 6,
       image: './assets/projects/Snapshoot-Portfolio-desktop.svg',
-      name: 'Multi-Post Stories Gain+Glory',
+      name: 'Keeping track of hundreds of components',
       languages_list: ['HTMl', 'JS', 'CSS', 'Ruby & Rails'],
       desktoplist: ['Codekit', 'Github', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
       btn_popup: 'See Project',
