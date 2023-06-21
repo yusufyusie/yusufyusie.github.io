@@ -69,12 +69,12 @@
   const projectPopUp = [
     {
       id: 1,
-      image: './assets/images/Img-plaholder.svg',
+      image: './assets/projects/Snapshoot-Portfolio-desktop.svg',
       name: 'Multi-Post Stories Gain+Glory',
       languages_list: ['HTMl', 'JS', 'CSS', 'Ruby & Rails'],
       desktoplist: ['Codekit', 'Github', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
       btn_popup: 'See Project',
-      description: ' Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+      description: ' Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s',
       firstBtn: 'See Live',
       secondBtn: 'See Source',
       linkVersion: 'https://yusufyusie-app/',
@@ -82,12 +82,12 @@
     },
     {
       id: 2,
-      image: './assets/images/Img-plaholder.svg',
+      image: './assets/projects/modal_mobile.png',
       name: 'Multi-Post Stories Gain+Glory',
       languages_list: ['HTMl', 'JS', 'CSS', 'Ruby & Rails'],
       desktoplist: ['Codekit', 'Github', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
       btn_popup: 'See Project',
-      description: ' Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+      description: 'Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem',
       firstBtn: 'See Live',
       secondBtn: 'See Source',
       linkVersion: 'https://yusufyusie-app/',
@@ -95,12 +95,12 @@
     },
     {
       id: 3,
-      image: './assets/images/Img-plaholder.svg',
+      image: './assets/projects/modal_desktop.png',
       name: 'Multi-Post Stories Gain+Glory',
       languages_list: ['HTMl', 'JS', 'CSS', 'Ruby & Rails'],
       desktoplist: ['Codekit', 'Github', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
       btn_popup: 'See Project',
-      description: ' Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+      description: ' Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
       firstBtn: 'See Live',
       secondBtn: 'See Source',
       linkVersion: 'https://yusufyusie-app/',
@@ -108,7 +108,7 @@
     },
     {   
       id: 4,
-      image: './assets/images/Img-plaholder.svg',
+      image: './assets/projects/Snapshoot-Portfolio-mobile.svg',
       name: 'Multi-Post Stories Gain+Glory',
       languages_list: ['HTMl', 'JS', 'CSS', 'Ruby & Rails'],
       desktoplist: ['Codekit', 'Github', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
@@ -121,7 +121,7 @@
     },
     {
       id: 5,
-      image: './assets/images/Img-plaholder.svg',
+      image: './assets/projects/Snapshoot-Portfolio-desktop.svg',
       name: 'Multi-Post Stories Gain+Glory',
       languages_list: ['HTMl', 'JS', 'CSS', 'Ruby & Rails'],
       desktoplist: ['Codekit', 'Github', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
@@ -134,12 +134,12 @@
     },
     {
       id: 6,
-      image: './assets/images/Img-plaholder.svg',
+      image: './assets/projects/Snapshoot-Portfolio-desktop.svg',
       name: 'Multi-Post Stories Gain+Glory',
       languages_list: ['HTMl', 'JS', 'CSS', 'Ruby & Rails'],
       desktoplist: ['Codekit', 'Github', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
       btn_popup: 'See Project',
-      description: ' Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+      description: 'Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
       firstBtn: 'See Live',
       secondBtn: 'See Source',
       linkVersion: 'https://yusufyusie-app/',
@@ -158,13 +158,13 @@
   function projectPopup(pop_works) {
     return `
     <div class="workMainDiv">
-      <span class="cl-tag fa fa-close" id="firstClose"></span>
+    <span class="cl-tag fa fa-close" id="firstClose"></span>
       <div class="workImgDiv">
         <img src=${pop_works.image} alt="My-Work" id="closeTab">
       </div>
     <div class="workContentDiv">
       <div class="workNameDiv">
-        <h1>${pop_works.name}</h1>
+        <h2>${pop_works.name}</h2>
         <ul class="workButtonDiv">
           <li><a href=${pop_works.linkVersion} target="_blank"><button type="button" >${pop_works.firstBtn}<i class="fa fa-external-link" aria-hidden="true"></i></button></a></li>
           <li><a href=${pop_works.linkSource} target="_blank"><button type="button">${pop_works.secondBtn}<i class="fa fa-github" aria-hidden="true"></i></button></a></li>
