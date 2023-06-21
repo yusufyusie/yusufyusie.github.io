@@ -187,4 +187,76 @@
       `;
   }
 
+  const modal = document.getElementById('intialPopup');
+
+  if (document.getElementById('1')) {
+    document.getElementById('1').onclick = () => {
+      modal.innerHTML = projectPopup(projectPopUp[0]);
+      modal.style.display = 'block';
+      const span = document.getElementById('firstClose');
+      span.addEventListener('click', () => {
+        modal.style.display = 'none';
+      });
+    };
+  }
   
+  if (document.getElementById('2')) {
+    document.getElementById('2').onclick = () => {
+      modal.innerHTML = projectPopup(projectPopUp[1]);
+      modal.style.display = 'block';
+      const span = document.getElementById('firstClose');
+      span.addEventListener('click', () => {
+        modal.style.display = 'none';
+      });
+    };
+  }
+  
+  if (document.getElementById('3')) {
+    document.getElementById('3').onclick = () => {
+      modal.innerHTML = projectPopup(projectPopUp[2]);
+      modal.style.display = 'block';
+      const span = document.getElementById('firstClose');
+      span.addEventListener('click', () => {
+        modal.style.display = 'none';
+      });
+    };
+  }
+  
+  if (document.getElementById('4')) {
+    document.getElementById('4').onclick = () => {
+      modal.innerHTML = projectPopup(projectPopUp[3]);
+      modal.style.display = 'block';
+      const span = document.getElementById('firstClose');
+      span.addEventListener('click', () => {
+        modal.style.display = 'none';
+      });
+    };
+  }
+  
+  if (document.getElementById('5')) {
+    document.getElementById('5').onclick = () => {
+      modal.innerHTML = projectPopup(projectPopUp[4]);
+      modal.style.display = 'block';
+      const span = document.getElementById('firstClose');
+      span.addEventListener('click', () => {
+        modal.style.display = 'none';
+      });
+    };
+  }
+  
+  if (document.getElementById('6')) {
+    document.getElementById('6').onclick = () => {
+      modal.innerHTML = projectPopup(projectPopUp[5]);
+      modal.style.display = 'block';
+      const span = document.getElementById('firstClose');
+      span.addEventListener('click', () => {
+        modal.style.display = 'none';
+      });
+    };
+  }
+  
+  window.onclick = (event) => {
+    if (event.target === modal) {
+      modal.style.display = 'none';
+    }
+  };
