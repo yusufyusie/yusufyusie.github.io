@@ -465,13 +465,13 @@ button:active {
     gap: 20px 10px;
   }
 
-  /* .mobileButtonDiv ul li {
+  .mobileButtonDiv ul li {
     margin: 2px;
   }
 
   .mobileButtonDiv {
     display: block;
-  } */
+  }
 }
 
 @media (min-width: 1050px) {
@@ -543,7 +543,7 @@ button:active {
 }
 
 /* Start the popup part */
-/* .workMainDiv {
+.workMainDiv {
   display: flex;
   background-color: #fff;
   flex-direction: column;
@@ -692,10 +692,10 @@ button:active {
   background: #ebf0ee;
   border-radius: 4px;
   letter-spacing: 0.03em;
-} */
+}
 
 /* mobile Popup for my work section */
-/* .mobilePopup {
+.mobilePopup {
   display: none;
   height: 100%;
   position: fixed;
@@ -707,10 +707,10 @@ button:active {
   z-index: 1;
   background: rgba(0, 0, 0, 0.7);
   transition: opacity 500ms;
-} */
+}
 
 /* media quries */
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
   .workMainDiv {
     display: flex;
     background-color: #fff;
@@ -755,7 +755,7 @@ button:active {
   .mobileButtonDiv ul li {
     margin-bottom: 3px;
   }
-} */
+}
 
 /* About me group starts */
 
@@ -832,9 +832,9 @@ button:active {
     background: url(./assets/images/about_me_desktop_left.svg) no-repeat 0% 20%, url(./assets/images/about_me_desktop_rigth.svg) no-repeat 100% 0%;
   }
 
-  /* .mobileButtonDiv {
+  .mobileButtonDiv {
     display: none;
-  } */
+  }
 }
 
 @media (min-width: 768px) {
