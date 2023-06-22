@@ -946,12 +946,6 @@ footer::after {
   border-radius: 8px;
 }
 
-.error_msg {
-  font-size: 0.9rem;
-  line-height: 1.5rem;
-  color: #f00;
-}
-
 @media (min-width: 768px) {
   html,
   body {
