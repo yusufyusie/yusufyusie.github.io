@@ -14,7 +14,6 @@ const screenTest = (e) => {
       lastName.required = true;
     }
   };
-
   
 screenTest(mediaqueryList);
 
@@ -44,6 +43,13 @@ email.addEventListener('change', () => {
 textArea.addEventListener('change', () => {
   inputData.textArea = textArea.value;
 });
+
+const populateFields = () => {
+    localStorage.setItem('savedForm', JSON.stringify(inputData));
+    fillDataInput();
+  };
+  populateFields();
+  form.onchange = populateFields;
 
 const fillDataInput = () => {
   if (inputData.fullName) {
