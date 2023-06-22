@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="styles.css" />
     <script src="./assets/js/mobilemenu.js" defer></script>
     <script src="./assets/js/popupwindow.js" defer></script>
+    <script src="./assets/js/formvalidate.js"defer></script>
   </head>
 
   <body>
@@ -154,11 +155,8 @@
     <footer class="footer-container" id="footer-container-id">
       <div class="footer-form">
         <h2 class="footer-title">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
-        <form action="https://formspree.io/f/xzbqljbl" method="post" class="form-input">
+        <form id="contact_form" action="https://formspree.io/f/xzbqljbl" method="post" class="form-input">
           <ul class="form-fields">
-            <li class="input-name">
-              <input type="text" name="name" id="name" maxlength="30" placeholder="Full name" required />
-            </li>
             <li class="input-full-name">
               <input type="text" name="first_name" id="first_name" maxlength="30" placeholder="First name" required />
               <input type="text" name="last_name" id="last_name" maxlength="30" placeholder="Last name" required />
@@ -171,7 +169,7 @@
             </li>
             <li class="submit-button">
               <button type="submit">Get in touch</button><br />
-              <small></small>
+              <div class="error_msg"></div>
             </li>
           </ul>
         </form>
