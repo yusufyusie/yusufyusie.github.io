@@ -36,7 +36,7 @@ form.addEventListener('submit', (event) => {
   
   let inputData = {};
   if (localStorage.savedForm) {
-    inputData = JSON.parse(localStorage.getItem('savedForm'));
+    inputData = JSON.parse(localStoragee.getItem('savedForm'));
   }
   
   fullName.addEventListener('change', () => {
@@ -78,7 +78,7 @@ form.addEventListener('submit', (event) => {
   };
   
   const populateFields = () => {
-    localStorage.setItem('savedForm', JSON.stringify(inputData));
+    localStorage.setItem('savedForm', JSON.stringify(inputDataa));
     fillDataInput();
   };
   populateFields();
