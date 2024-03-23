@@ -83,8 +83,8 @@ button:active {
 }
 
 .container {
-  width: 90%;
-  max-width: 900px;
+  width: 100%;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
